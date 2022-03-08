@@ -1,0 +1,298 @@
+@import url(reset.css);
+@import url(fuentes.css);
+
+body{
+    background-color: rgb(251, 1, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#wrap{
+    width: 960px;
+    margin: auto;
+    clear: both;
+}
+
+/*--estilos al header--*/
+
+header{
+    width: 100%;
+    float: left;
+    background: #f6f8f9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 39%, #d7dee3 59%, #f5f7f9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 39%,#d7dee3 59%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 39%,#d7dee3 59%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */    
+    box-shadow: 0px 3px 5px #000;
+    -moz-box-shadow: 0px 3px 5px #000;
+    -webkit-box-shadow: 0px 3px 5px #000;
+}
+
+#subheader{
+    width: 960px;
+    margin: auto;
+}
+
+#logotipo{
+    float: left;
+    width: 300px;
+    padding: 10px 0px;
+}
+
+#logotipo a{
+    font-family: American Signer Personal Use ; 
+    font-size: 50px;
+    color: #000;
+}
+
+#logotipo a:hover{
+    text-decoration: none;
+}
+
+/*menu*/
+
+header #subheader nav{
+    float: left;
+    width: 660px;
+    padding: 30px 0px;
+    text-align: right;
+}
+
+header #subheader nav ul li{
+    display: inline;
+    font-family: American Signer Personal Use ;
+}
+
+header #subheader nav ul li a{
+    color: #000;
+    font-size: 19px;
+    padding: 10 px;
+    border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius:2px;
+}
+
+header #subheader nav ul li a:hover{
+    color:#fff;
+    background: #178;
+    text-decoration: none;
+}
+
+/*main*/
+
+#main{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    float: left;
+}
+
+#slideshow{
+    width: 920px;
+    height: 260px;
+    float: left;
+    background: #000;
+    border: solid 20px #2f0ee7;
+    margin-bottom: 10px;
+}
+
+#bienvenidos{
+    width: 920px;
+    float: left;
+    /* Enlace permanente: use para editar y compartir este degradado: https://colorzilla.com/gradient-editor/#299a0b+0,1137dd+48,1137dd+48,299a0b+100 */
+    background: rgb(206,222,3);
+    background: linear-gradient(90deg, rgba(206,222,3,1) 18%, rgba(33,152,42,1) 51%, rgba(154,193,7,1) 97%);
+
+    padding: 20px;
+    margin: 20 px 0px;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 2px #fff;
+        -moz-border-radius: 0px 2px 2px #fff;
+        -webkit-border-radius: 0px 2px 2px #fff;
+}
+
+#slideshow img{
+    width: 920px;
+    height: 260px;
+}
+
+#bienvenidos article h3{
+    font-family: American Signer Personal Use ;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#bienvenidos article{
+    color: #fff;
+    line-height: 27px;
+}
+
+/*contenido*/
+
+#contenido{
+    width: 700px;
+    float: left;
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+    font-size: 22px;
+    font-family:  American Signer Personal Use ;
+    color: #fff;
+}
+
+#contenido article .fecha{
+    font-size: 14px;
+    font-family:  American Signer Personal Use ;
+    color: #2f0ee7;
+    margin-bottom: 5px;
+}
+
+#contenido article .thumb{
+    width: 220px;
+    height: 150px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+#contenido article > p{
+    color: #000;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 17px;
+}
+
+/*sidear*/
+
+aside{
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+    background: #2f0ee7;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 2px #000;
+        -moz-border-radius: 0px 2px 2px #000;
+        -webkit-border-radius: 0px 2px 2px #000;
+}
+
+aside .widget{
+    margin-bottom:10px;
+    float: left;
+}
+
+aside .widget > h3{
+    background: #fff;
+    color: #2f0ee7;
+    width: 220px;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+aside .widget a{
+    color: #fff;
+}
+
+aside .widget ul li{
+    margin-bottom: 5px;
+}
+
+aside .widget img{
+    width: 220px;
+    height: 170px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+    box-shadow: 0px 2px 2px #000;
+        -moz-border-shadow: 0px 2px 2px #000;
+        -webkit-border-shadow: 0px 2px 2px #000;
+    box-shadow: 5px;
+        -moz-border-shadow: 5px;
+        -webkit-border-shadow: 5px;
+        background: rgb(206,222,3);
+        background: linear-gradient(90deg, rgba(206,222,3,1) 18%, rgba(33,152,42,1) 51%, rgba(154,193,7,1) 97%);
+}
+
+footer section{
+    width: 440px;
+    float: left;
+    padding: 20px;
+}
+
+footer #acerca-de h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+footer #redes-s >div{
+    width: 220px;
+    height: 60px;
+    float: left;
+    opacity: 1;
+    background: #2f0ee7;
+}
+
+footer #redes-s > div a{
+    width: 220px;
+    height: 60px;
+    display: inline-block;
+}
+
+footer #redes-s .email{
+    background: url('../imagenes/gmail.png');
+    
+}
+
+footer #redes-s .twitter{
+    background: url('../imagenes/twitter.png');
+    
+}
+
+footer #redes-s .youtube{
+    background: url('../imagenes/youtube.png');
+    
+}
+
+footer #redes-s .facebook{
+    background: url('../imagenes/facebook.png');
+}
+
+footer #redes-s > div:hover{
+    opacity: 1;
+}
+
+#copyright{
+    float: left;
+    width: 960px;
+    margin: 10px 0px;
+}
+
+#copyright p{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
